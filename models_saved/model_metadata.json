@@ -1,0 +1,16 @@
+{
+  "model_name": "Toxic Comment Detection System (Jigsaw)",
+  "architecture": "Dual-channel TF-IDF (Word (1,2) + Char (2,5)) + Calibrated Logistic Regression",
+  "strategy": "Multilabel Binary Relevance & Binary Toxic Triage",
+  "labels": [
+    "toxic",
+    "severe_toxic",
+    "obscene",
+    "threat",
+    "insult",
+    "identity_hate"
+  ],
+  "training_samples": 127656,
+  "test_samples": 31915,
+  "elapsed_seconds": 337.71
+}

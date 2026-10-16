@@ -1,0 +1,83 @@
+[
+  {
+    "threshold": 0.1,
+    "precision": 0.3971,
+    "recall": 0.9713,
+    "f1_score": 0.5637,
+    "false_positives": 4786,
+    "false_negatives": 93,
+    "moderation_impact": "High Catch Rate (Strict / Safety First): High moderator workload due to false alarms"
+  },
+  {
+    "threshold": 0.2,
+    "precision": 0.5203,
+    "recall": 0.9461,
+    "f1_score": 0.6713,
+    "false_positives": 2831,
+    "false_negatives": 175,
+    "moderation_impact": "High Catch Rate (Strict / Safety First): High moderator workload due to false alarms"
+  },
+  {
+    "threshold": 0.3,
+    "precision": 0.6043,
+    "recall": 0.9223,
+    "f1_score": 0.7302,
+    "false_positives": 1960,
+    "false_negatives": 252,
+    "moderation_impact": "High Catch Rate (Strict / Safety First): High moderator workload due to false alarms"
+  },
+  {
+    "threshold": 0.4,
+    "precision": 0.6661,
+    "recall": 0.8955,
+    "f1_score": 0.7639,
+    "false_positives": 1457,
+    "false_negatives": 339,
+    "moderation_impact": "Balanced Triage: Standard threshold for general queue routing"
+  },
+  {
+    "threshold": 0.5,
+    "precision": 0.7163,
+    "recall": 0.8706,
+    "f1_score": 0.7859,
+    "false_positives": 1119,
+    "false_negatives": 420,
+    "moderation_impact": "Balanced Triage: Standard threshold for general queue routing"
+  },
+  {
+    "threshold": 0.6,
+    "precision": 0.761,
+    "recall": 0.8401,
+    "f1_score": 0.7986,
+    "false_positives": 856,
+    "false_negatives": 519,
+    "moderation_impact": "Balanced Triage: Standard threshold for general queue routing"
+  },
+  {
+    "threshold": 0.7,
+    "precision": 0.8098,
+    "recall": 0.8031,
+    "f1_score": 0.8064,
+    "false_positives": 612,
+    "false_negatives": 639,
+    "moderation_impact": "Conservative Flagging (Free Expression First): Low false alarms, but subtle toxicity missed"
+  },
+  {
+    "threshold": 0.8,
+    "precision": 0.8531,
+    "recall": 0.7587,
+    "f1_score": 0.8031,
+    "false_positives": 424,
+    "false_negatives": 783,
+    "moderation_impact": "Conservative Flagging (Free Expression First): Low false alarms, but subtle toxicity missed"
+  },
+  {
+    "threshold": 0.9,
+    "precision": 0.9062,
+    "recall": 0.6934,
+    "f1_score": 0.7856,
+    "false_positives": 233,
+    "false_negatives": 995,
+    "moderation_impact": "Conservative Flagging (Free Expression First): Low false alarms, but subtle toxicity missed"
+  }
+]

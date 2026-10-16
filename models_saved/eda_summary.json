@@ -1,0 +1,116 @@
+{
+  "total_samples": 159571,
+  "clean_count": 143346,
+  "clean_pct": 89.83,
+  "any_toxic_count": 16225,
+  "any_toxic_pct": 10.17,
+  "label_stats": {
+    "toxic": {
+      "count": 15294,
+      "percentage": 9.58,
+      "imbalance_ratio": 9.37
+    },
+    "severe_toxic": {
+      "count": 1595,
+      "percentage": 1.0,
+      "imbalance_ratio": 89.87
+    },
+    "obscene": {
+      "count": 8449,
+      "percentage": 5.29,
+      "imbalance_ratio": 16.97
+    },
+    "threat": {
+      "count": 478,
+      "percentage": 0.3,
+      "imbalance_ratio": 299.89
+    },
+    "insult": {
+      "count": 7877,
+      "percentage": 4.94,
+      "imbalance_ratio": 18.2
+    },
+    "identity_hate": {
+      "count": 1405,
+      "percentage": 0.88,
+      "imbalance_ratio": 102.03
+    }
+  },
+  "multilabel": {
+    "label_cardinality": 0.22,
+    "label_density": 0.0367,
+    "label_count_distribution": {
+      "0": 143346,
+      "1": 6360,
+      "2": 3480,
+      "3": 4209,
+      "4": 1760,
+      "5": 385,
+      "6": 31
+    }
+  },
+  "correlation_matrix": {
+    "toxic": {
+      "toxic": 1.0,
+      "severe_toxic": 0.309,
+      "obscene": 0.677,
+      "threat": 0.157,
+      "insult": 0.648,
+      "identity_hate": 0.266
+    },
+    "severe_toxic": {
+      "toxic": 0.309,
+      "severe_toxic": 1.0,
+      "obscene": 0.403,
+      "threat": 0.124,
+      "insult": 0.376,
+      "identity_hate": 0.202
+    },
+    "obscene": {
+      "toxic": 0.677,
+      "severe_toxic": 0.403,
+      "obscene": 1.0,
+      "threat": 0.141,
+      "insult": 0.741,
+      "identity_hate": 0.287
+    },
+    "threat": {
+      "toxic": 0.157,
+      "severe_toxic": 0.124,
+      "obscene": 0.141,
+      "threat": 1.0,
+      "insult": 0.15,
+      "identity_hate": 0.115
+    },
+    "insult": {
+      "toxic": 0.648,
+      "severe_toxic": 0.376,
+      "obscene": 0.741,
+      "threat": 0.15,
+      "insult": 1.0,
+      "identity_hate": 0.338
+    },
+    "identity_hate": {
+      "toxic": 0.266,
+      "severe_toxic": 0.202,
+      "obscene": 0.287,
+      "threat": 0.115,
+      "insult": 0.338,
+      "identity_hate": 1.0
+    }
+  },
+  "length_stats": {
+    "clean": {
+      "mean_chars": 404.3,
+      "median_chars": 216.0,
+      "mean_words": 68.9,
+      "median_words": 38.0
+    },
+    "toxic": {
+      "mean_chars": 303.3,
+      "median_chars": 128.0,
+      "mean_words": 52.7,
+      "median_words": 23.0
+    }
+  }
+}

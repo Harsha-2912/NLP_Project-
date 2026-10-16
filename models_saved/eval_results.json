@@ -1,0 +1,128 @@
+{
+  "multilabel": {
+    "aggregate": {
+      "mean_roc_auc": 0.9849,
+      "hamming_loss": 0.0235,
+      "subset_accuracy": 0.8965,
+      "micro_precision": 0.6285,
+      "micro_recall": 0.8589,
+      "micro_f1": 0.7258,
+      "macro_precision": 0.5114,
+      "macro_recall": 0.8004,
+      "macro_f1": 0.6129,
+      "weighted_f1": 0.7387
+    },
+    "per_label": {
+      "toxic": {
+        "precision": 0.6962,
+        "recall": 0.8661,
+        "f1_score": 0.7719,
+        "roc_auc": 0.9782,
+        "pr_auc": 0.8837,
+        "support": 3046,
+        "confusion_matrix": {
+          "tn": 27718,
+          "fp": 1151,
+          "fn": 408,
+          "tp": 2638
+        }
+      },
+      "severe_toxic": {
+        "precision": 0.3342,
+        "recall": 0.8033,
+        "f1_score": 0.4721,
+        "roc_auc": 0.9852,
+        "pr_auc": 0.4417,
+        "support": 305,
+        "confusion_matrix": {
+          "tn": 31122,
+          "fp": 488,
+          "fn": 60,
+          "tp": 245
+        }
+      },
+      "obscene": {
+        "precision": 0.7434,
+        "recall": 0.8857,
+        "f1_score": 0.8083,
+        "roc_auc": 0.9908,
+        "pr_auc": 0.8997,
+        "support": 1662,
+        "confusion_matrix": {
+          "tn": 29745,
+          "fp": 508,
+          "fn": 190,
+          "tp": 1472
+        }
+      },
+      "threat": {
+        "precision": 0.3771,
+        "recall": 0.6735,
+        "f1_score": 0.4835,
+        "roc_auc": 0.989,
+        "pr_auc": 0.5168,
+        "support": 98,
+        "confusion_matrix": {
+          "tn": 31708,
+          "fp": 109,
+          "fn": 32,
+          "tp": 66
+        }
+      },
+      "insult": {
+        "precision": 0.6184,
+        "recall": 0.8636,
+        "f1_score": 0.7207,
+        "roc_auc": 0.9826,
+        "pr_auc": 0.8081,
+        "support": 1576,
+        "confusion_matrix": {
+          "tn": 29499,
+          "fp": 840,
+          "fn": 215,
+          "tp": 1361
+        }
+      },
+      "identity_hate": {
+        "precision": 0.2992,
+        "recall": 0.7104,
+        "f1_score": 0.4211,
+        "roc_auc": 0.9835,
+        "pr_auc": 0.4836,
+        "support": 259,
+        "confusion_matrix": {
+          "tn": 31225,
+          "fp": 431,
+          "fn": 75,
+          "tp": 184
+        }
+      }
+    }
+  },
+  "binary": {
+    "accuracy": 0.9518,
+    "precision": 0.7163,
+    "recall": 0.8706,
+    "f1_score": 0.7859,
+    "roc_auc": 0.9791,
+    "specificity": 0.961,
+    "confusion_matrix": {
+      "tn": 27551,
+      "fp": 1119,
+      "fn": 420,
+      "tp": 2825
+    }
+  },
+  "optimal_threshold": 0.723,
+  "sample_size": 159571,
+  "train_samples": 127656,
+  "test_samples": 31915,
+  "labels": [
+    "toxic",
+    "severe_toxic",
+    "obscene",
+    "threat",
+    "insult",
+    "identity_hate"
+  ]
+}

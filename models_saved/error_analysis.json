@@ -1,0 +1,265 @@
+{
+  "total_false_positives": 1119,
+  "total_false_negatives": 420,
+  "fp_examples": [
+    {
+      "comment": "LOL PENIS! \n\nLOL!\n\nI AM TALKING TO YOU SO THIS SHIT IS NOT VANDALISING!",
+      "confidence": 1.0,
+      "root_cause": "Swear Word Used in Meta or Non-directed Context"
+    },
+    {
+      "comment": "Some ratings from the VCHip \n\n1. The Power: TV-PG-L (hell, shit, pissed)\n\n2. Just Set Up the Chairs: TV-PG-V (the Destroyer of World murders)\n\n3. Caffeinated Concert Tickets: TV-PG-D (lady pecs = boobs, real reason people go to concerts is too see hot girls)\n\n4. Death Punchies: TV-PG-V: (death kwon ...",
+      "confidence": 1.0,
+      "root_cause": "Identity Term Mention (Potential Dataset / Lexical Bias)"
+    },
+    {
+      "comment": "\"\n\nYour polices are nothing but lies. Also... WTF is an \"\"ip\"\"? Do you mean IP? I suggest you get people to teach your editors basic English.\nAnd as a matter of fact, I have an account. And I will edit and spam all I like, good day, cunt. -)\"",
+      "confidence": 0.9999,
+      "root_cause": "Linguistic Ambiguity / Heated Debate"
+    },
+    {
+      "comment": "Khurki is a dumb Assk Jeeves?",
+      "confidence": 0.9999,
+      "root_cause": "Linguistic Ambiguity / Heated Debate"
+    },
+    {
+      "comment": "Copyright MXMXLI BY ASS_JH GY}}",
+      "confidence": 0.9994,
+      "root_cause": "Linguistic Ambiguity / Heated Debate"
+    },
+    {
+      "comment": "\"::Well, he may claim that he sees it as evidence of \"\"anti-Semitism\"\" on WP, but I don't think this is the case. I have never, ever heard anyone, no matter their ethnic or religious background, complain about the ancestors of Iranians and Indians being called \"\"Aryans.\"\" And why not? Because that i...",
+      "confidence": 0.9994,
+      "root_cause": "Colloquial / Enthusiastic Swear Word (Non-toxic Context)"
+    },
+    {
+      "comment": "dude wtf \n\nI was cleaning off some junk that slipped in when I copypasted my stuff so I could add a comment when someone else edited while I was typing, wtf?",
+      "confidence": 0.9992,
+      "root_cause": "Linguistic Ambiguity / Heated Debate"
+    },
+    {
+      "comment": ", 5 July 2014 (UTC)\nOh noes. How will I ever recover from you not giving me any respect. Perhaps I'll reflect on the fact that a) you're a total moron who wouldn't know a true benefit to Wikipedia if it hit you in the face, and b) most, if not all, of what you know about me has been filtered through...",
+      "confidence": 0.9992,
+      "root_cause": "Swear Word Used in Meta or Non-directed Context"
+    },
+    {
+      "comment": "Kyle L -Damn I hate Calton soo much.",
+      "confidence": 0.9991,
+      "root_cause": "Swear Word Used in Meta or Non-directed Context"
+    },
+    {
+      "comment": "Block \n\nWhy do you say someone is idiotic and ban them for personal attatcks when calling someone idiotic is a personal attack? Shouldnt you be banned? I suppose not because this is not a democracy on this site its run like Hitler ran Germany.",
+      "confidence": 0.9991,
+      "root_cause": "Quoting Policy / Meta-Discussion of Toxicity"
+    },
+    {
+      "comment": "\"   \nMONGO, tell us. WHY DID YOU DO WTC? Why MONGO? MONGO, tell us. WHY DID YOU DO WTC? Why MONGO? MONGO, tell us. WHY DID YOU DO WTC? Why MONGO? faggotMONGO, tell us. WHY DID YOU DO WTC? Why MONGO? MONGO, tell us. WHY DID YOU DO WTC? Why MONGO? MONGO, tell us. WHY DID YOU DO WTC? Why MONGO? MONGO, ...",
+      "confidence": 0.9987,
+      "root_cause": "Linguistic Ambiguity / Heated Debate"
+    },
+    {
+      "comment": "Please \n\nPlease stop being a jerk or you will be blocked.",
+      "confidence": 0.9986,
+      "root_cause": "Linguistic Ambiguity / Heated Debate"
+    },
+    {
+      "comment": "Your a disgrace Dan stop making up silly stuff about the wombats",
+      "confidence": 0.9986,
+      "root_cause": "Linguistic Ambiguity / Heated Debate"
+    },
+    {
+      "comment": "\"\n\n Ben Garrison \n\nBen \"\"One Man Auschwitz\"\" Garrison\nBen \"\"Zyklon Ben\"\" Garrison\nBen \"\"One Man Klan\"\" Garrison\nBen \"\"The Walking Holocaust\"\" Garrison\nBen \"\"Nigger Grave Digger\"\" Garrison\nBen \"\"Chimp Choking Champion\"\" Garrison\nBen \"\"Six Million More\"\" Garrison\nBen \"\"Pull the Trigger on Every Nigger...",
+      "confidence": 0.9983,
+      "root_cause": "Identity Term Mention (Potential Dataset / Lexical Bias)"
+    },
+    {
+      "comment": "I sincerely wish i could meet you chumps   \n    \nYou freaks really get my goat. Etaonsh(still stuck in 1940's Europe), Firestar(firststatr Kung Fu extraordinaire), COvenantD(typical east coast jerk), Mibhofroovvsskskkety(russkie man frozen in USSR), Samuel Luo(weird lookin crazy), and crazy ol' Toma...",
+      "confidence": 0.9981,
+      "root_cause": "Linguistic Ambiguity / Heated Debate"
+    }
+  ],
+  "fn_examples": [
+    {
+      "comment": "Hi Phil,\n\nSee: http://en.wikipedia.org/wiki/Vera_Lynn (nowhere on this page is it cited that her song appeared at the finale of Dr. Strangelove, \nsee: http://en.wikipedia.org/wiki/Dr._Strangelove.) It does however appear on the Dr. Strangelove page. My aim was simply to link the two.\n\nThanks for bei...",
+      "confidence": 0.0031,
+      "root_cause": "Subtle Hostility / Low-intensity Abuse"
+    },
+    {
+      "comment": "Current Squad \n\nNo FOOKIN AROUND WITH IT, alright!",
+      "confidence": 0.0077,
+      "root_cause": "Subtle Hostility / Low-intensity Abuse"
+    },
+    {
+      "comment": "Oppose' - I also oppose the hatnote and without the hatnote the redirect and move doesn't work, otherwise Eating pussy (disambiguation) would be orphaned. As stated above the dmb page should be given time to settle down",
+      "confidence": 0.0102,
+      "root_cause": "Subtle Hostility / Low-intensity Abuse"
+    },
+    {
+      "comment": "Ironic that you would tell me to view the Talk rules...I was deleting sections of Talk pages which were being used as forums about the subject rather than discussion about the article.  So STFU.",
+      "confidence": 0.012,
+      "root_cause": "Obfuscation / Acronyms / Evasion Tactics"
+    },
+    {
+      "comment": "\"\n\nRelated projects is made for stuff that is somewhat more related then just having 4chan's name in it. The lolikon boards on not4chan was on 4chan but then changed to not4chan. (see the article) And world4ch is managed by 4chan staff. Anyways plus4chan has nothing to do with 4chan except that they...",
+      "confidence": 0.0135,
+      "root_cause": "Subtle Hostility / Low-intensity Abuse"
+    },
+    {
+      "comment": "... \n\nHi, I have no idea what you are babbling about...",
+      "confidence": 0.0154,
+      "root_cause": "Subtle Hostility / Low-intensity Abuse"
+    },
+    {
+      "comment": "Your argument becomes even weaker if you're now going to rely upon your hopes and wishes that the subject has 'moved on'. It is clear that the person had psychiatric problems as a result of this episode, and that any reasonable person might deduce that such problems might be perpetuated and compound...",
+      "confidence": 0.016,
+      "root_cause": "Subtle Hostility / Low-intensity Abuse"
+    },
+    {
+      "comment": "\"\nI'd like to chime in as another editor who's frustrated with Betacommand's insistence on removing (what certainly appears to be) legitimate Wikipedia content, en masse. His bad attitude is simply the sour icing atop the sawdust cake.  (Talk) \"",
+      "confidence": 0.0161,
+      "root_cause": "Subtle Hostility / Low-intensity Abuse"
+    },
+    {
+      "comment": "\"{{unblock|THANK YOU for a reasonable fucking comment!!! The ONLY USER in ANY AREA who has actually made one!!  (Ebyabe made comments which appear to be reasonable at first glance, but are actually unreasonable because one is fraudulent and the other was untrue regarding a place where she could see ...",
+      "confidence": 0.0163,
+      "root_cause": "Subtle Hostility / Low-intensity Abuse"
+    },
+    {
+      "comment": "The facts: \n1. This is a blatant lie, as proven here. Your comment dates from . The last version containing non-religious reasons for conversion to islam, which was active around that time, , did not compare zakat to jizya anymore. \n2. You have complained with a fellow administrator in order to get ...",
+      "confidence": 0.0166,
+      "root_cause": "Subtle Hostility / Low-intensity Abuse"
+    },
+    {
+      "comment": "fake barnstars and add them to other editors pages.  This is deceptive and disruptive.  Thanks!",
+      "confidence": 0.0168,
+      "root_cause": "Subtle Hostility / Low-intensity Abuse"
+    },
+    {
+      "comment": "to Donate to this group of buffoons",
+      "confidence": 0.0172,
+      "root_cause": "Subtle Hostility / Low-intensity Abuse"
+    },
+    {
+      "comment": "\"\n\n re: msg \n\nyou must understand that the sentence in question was originally added as a joke (by me, and i regret that), but later was restructured and even supported with a botched up \"\"evidence\"\" by someone with a vested interest of laundering the effects of msg. there is no evidence of the effe...",
+      "confidence": 0.0178,
+      "root_cause": "Implicit / Veiled Threat (No Profanity)"
+    },
+    {
+      "comment": "Just saying that it could be considered canvassing, not that it was canvassing. I did the same thing, without asking the editor to vote for my side, and it was said that I was canvassing. Then again, I have been called a troll, a human rights violator, a censorship supporter, (and recently) that I l...",
+      "confidence": 0.0183,
+      "root_cause": "Subtle Hostility / Low-intensity Abuse"
+    },
+    {
+      "comment": "\"\n The various local government areas pages only list them.  I was thinking something like that.  These three paragraphs are from a couple of papers I wrote, they can be incorporated into the article.  \n\nThe states (and territories) run the majority of the government in Australia and devolve some of...",
+      "confidence": 0.0197,
+      "root_cause": "Subtle Hostility / Low-intensity Abuse"
+    }
+  ],
+  "identity_bias_stats": {
+    "gay": {
+      "total_mentions": 154,
+      "clean_comments": 64,
+      "false_positive_rate": 42.19
+    },
+    "lesbian": {
+      "total_mentions": 15,
+      "clean_comments": 10,
+      "false_positive_rate": 60.0
+    },
+    "homosexual": {
+      "total_mentions": 38,
+      "clean_comments": 21,
+      "false_positive_rate": 42.86
+    },
+    "queer": {
+      "total_mentions": 19,
+      "clean_comments": 5,
+      "false_positive_rate": 40.0
+    },
+    "trans": {
+      "total_mentions": 10,
+      "clean_comments": 8,
+      "false_positive_rate": 0.0
+    },
+    "muslim": {
+      "total_mentions": 89,
+      "clean_comments": 75,
+      "false_positive_rate": 8.0
+    },
+    "islam": {
+      "total_mentions": 81,
+      "clean_comments": 73,
+      "false_positive_rate": 9.59
+    },
+    "jewish": {
+      "total_mentions": 149,
+      "clean_comments": 138,
+      "false_positive_rate": 8.7
+    },
+    "jew": {
+      "total_mentions": 61,
+      "clean_comments": 44,
+      "false_positive_rate": 22.73
+    },
+    "christian": {
+      "total_mentions": 149,
+      "clean_comments": 134,
+      "false_positive_rate": 5.22
+    },
+    "hindu": {
+      "total_mentions": 47,
+      "clean_comments": 42,
+      "false_positive_rate": 14.29
+    },
+    "black": {
+      "total_mentions": 230,
+      "clean_comments": 196,
+      "false_positive_rate": 10.71
+    },
+    "white": {
+      "total_mentions": 243,
+      "clean_comments": 212,
+      "false_positive_rate": 9.43
+    },
+    "african": {
+      "total_mentions": 86,
+      "clean_comments": 81,
+      "false_positive_rate": 6.17
+    },
+    "asian": {
+      "total_mentions": 53,
+      "clean_comments": 48,
+      "false_positive_rate": 4.17
+    },
+    "mexican": {
+      "total_mentions": 22,
+      "clean_comments": 17,
+      "false_positive_rate": 0.0
+    },
+    "woman": {
+      "total_mentions": 120,
+      "clean_comments": 96,
+      "false_positive_rate": 12.5
+    },
+    "women": {
+      "total_mentions": 155,
+      "clean_comments": 135,
+      "false_positive_rate": 10.37
+    },
+    "female": {
+      "total_mentions": 64,
+      "clean_comments": 56,
+      "false_positive_rate": 16.07
+    },
+    "male": {
+      "total_mentions": 71,
+      "clean_comments": 60,
+      "false_positive_rate": 16.67
+    },
+    "disabled": {
+      "total_mentions": 23,
+      "clean_comments": 23,
+      "false_positive_rate": 4.35
+    }
+  }
+}
